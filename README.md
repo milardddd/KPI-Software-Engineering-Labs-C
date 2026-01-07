@@ -1,6 +1,6 @@
 # KPI Software Engineering - C Programming Labs
 
-This repository contains academic projects and laboratory works developed during my studies at **Igor Sikorsky Kyiv Polytechnic Institute (KPI)**. It showcases a progression from basic programming constructs to complex algorithms and data structures implemented in C.
+This repository contains academic projects developed during my studies at **Igor Sikorsky Kyiv Polytechnic Institute (KPI), Faculty of Informatics and Computer Science (FIOT)**. It showcases a progression from basic programming constructs to complex algorithms and data structures implemented in C.
 
 ## 📂 Repository Structure
 
