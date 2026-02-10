@@ -1,28 +1,56 @@
-# KPI Software Engineering - C Programming Labs
+# KPI Software Engineering — C Programming Collection
 
-This repository contains academic projects developed during my studies at **Igor Sikorsky Kyiv Polytechnic Institute (KPI), Faculty of Informatics and Computer Science (FIOT)**. It showcases a progression from basic programming constructs to complex algorithms and data structures implemented in C.
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C11-00599C.svg?style=flat-square&logo=c">
+  <img src="https://img.shields.io/badge/University-Igor_Sikorsky_KPI-FFD700.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/Platform-macOS_M1-888888.svg?style=flat-square&logo=apple">
+</p>
+
+This repository contains academic projects developed during my Software Engineering studies at **Igor Sikorsky Kyiv Polytechnic Institute (KPI)**, Faculty of Informatics and Computer Science (FIOT).
+
+The collection showcases a progression from basic procedural logic to advanced data structures and algorithm analysis, implemented with a focus on memory efficiency and clean code.
+
+---
 
 ## 📂 Repository Structure
 
-### 1. [Programming Fundamentals - Part 1: Core Constructs](./Programming-Fundamentals-Part-1)
-This module contains the first 9 laboratory works, focusing on the foundational building blocks of software engineering:
-* **Basic Logic & Math (Labs 1-3):** Implementation of time converters, geometric calculators, and calendar logic.
-* **Sorting & Precision (Lab 4):** Optimized Bubble sort with EPSILON-based floating-point comparison.
-* **Memory Management (Labs 5-6):** Working with dynamic arrays, pointer-to-pointer structures, and string sorting.
-* **Numerical Methods (Labs 6-7):** Solvers for linear (SLAE) and non-linear equations using iterative methods and function pointers.
-* **Mathematical Modeling (Lab 8):** Calculation of complex impedance for RLC electrical circuits in the frequency domain.
-* **Data Persistence (Lab 9):** Managing records in binary files with custom signatures and CRUD operations.
+### 🟦 [Programming Fundamentals](./Programming-Fundamentals-Part-1)
 
-### 2. [Algorithms and Data Structures](./Algorithms-and-Data-Structures)
-Focuses on efficiency and advanced data organizations (Ongoing module):
-* **Advanced Sorting:** Future implementations of Shell sort and recursive algorithms.
-* **Search Techniques:** Linear and Binary search implementations for optimized data retrieval.
-* **Dynamic Structures:** Management of linked lists, including element filtering and memory cleanup.
+_Core constructs, basic math, and pointer manipulation._
 
-## 🛠 Tech Stack
-* **Language:** C (Standard C11)
-* **Compiler:** GCC/Clang
-* **Environment:** Unix-like (standard I/O, termios for terminal control)
+| Lab | Folder Name                        | Key Topics                                          |
+| :-: | :--------------------------------- | :-------------------------------------------------- |
+| 01  | `lab_01_roman_converter`           | Logic, `printf/scanf`, Roman numerals conversion.   |
+| 02  | `lab_02_triangle_calculator`       | Geometry, branching algorithms (`if/else`).         |
+| 03  | `lab_03_day_of_week_finder`        | Calendar logic, `switch/case` structures.           |
+| 04  | `lab_04_bubble_sort_tool`          | Iterative loops, basic array sorting.               |
+| 05  | `lab_05_string_pointer_sorter`     | Advanced pointers, memory addresses, string arrays. |
+| 06  | `lab_06_slae_iteration_solver`     | Iterative methods for linear equations.             |
+| 07  | `lab_07_nonlinear_equation_solver` | Numerical methods, function pointers.               |
+| 08  | `lab_08_complex_impedance_calc`    | Modeling RLC circuits using complex numbers.        |
+| 09  | `lab_09_binary_record_manager`     | Binary File I/O, custom signatures, CRUD.           |
+
+### 🟩 [Algorithms and Data Structures](./Algorithms-and-Data-Structures)
+
+_Focus on efficiency, Big O complexity, and dynamic structures._
+
+- **[lab_01_time_converter](./Algorithms-and-Data-Structures/lab_01_time_converter):** Linear algorithms and unit conversion.
+- **[lab_02_equation_solver](./Algorithms-and-Data-Structures/lab_02_equation_solver):** Branching logic for mathematical piecewise functions.
+- **[lab_03_series_summation](./Algorithms-and-Data-Structures/lab_03_series_summation):** Cyclic algorithms and series convergence.
+- **[lab_04_array_random_stats](./Algorithms-and-Data-Structures/lab_04_array_random_stats):** Functions, `rand()` usage, and statistical array analysis.
+- **[lab_05_search_and_sort](./Algorithms-and-Data-Structures/lab_05_search_and_sort):** Comparing Linear vs. Binary search efficiency.
+- **[lab_06_matrix_shell_sort](./Algorithms-and-Data-Structures/lab_06_matrix_shell_sort):** Advanced sorting (Shell's method) for 2D arrays.
+- **[lab_07_linked_list_manager](./Algorithms-and-Data-Structures/lab_07_linked_list_manager):** Dynamic memory, singly linked lists, and manual cleanup.
 
 ---
-*Developed by Timofii Rybalko*
+
+## 🛠 Tech Stack & Environment
+
+- **Language:** C (Standard C11)
+- **Compiler:** Clang (Apple LLVM) / GCC
+- **Architecture:** Optimized for Apple Silicon (macOS M1)
+- **Tools:** VS Code, Makefile/Shell terminal
+
+---
+
+_Developed by Timofii Rybalko_
