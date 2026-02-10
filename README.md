@@ -31,16 +31,17 @@ _Core constructs, basic math, and pointer manipulation._
 | 09  | `lab_09_binary_record_manager`     | Binary File I/O, custom signatures, CRUD.           |
 
 ### 🟩 [Algorithms and Data Structures](./Algorithms-and-Data-Structures)
+*Focus on efficiency, Big O complexity, and dynamic structures.*
 
-_Focus on efficiency, Big O complexity, and dynamic structures._
-
-- **[lab_01_time_converter](./Algorithms-and-Data-Structures/lab_01_time_converter):** Linear algorithms and unit conversion.
-- **[lab_02_equation_solver](./Algorithms-and-Data-Structures/lab_02_equation_solver):** Branching logic for mathematical piecewise functions.
-- **[lab_03_series_summation](./Algorithms-and-Data-Structures/lab_03_series_summation):** Cyclic algorithms and series convergence.
-- **[lab_04_array_random_stats](./Algorithms-and-Data-Structures/lab_04_array_random_stats):** Functions, `rand()` usage, and statistical array analysis.
-- **[lab_05_search_and_sort](./Algorithms-and-Data-Structures/lab_05_search_and_sort):** Comparing Linear vs. Binary search efficiency.
-- **[lab_06_matrix_shell_sort](./Algorithms-and-Data-Structures/lab_06_matrix_shell_sort):** Advanced sorting (Shell's method) for 2D arrays.
-- **[lab_07_linked_list_manager](./Algorithms-and-Data-Structures/lab_07_linked_list_manager):** Dynamic memory, singly linked lists, and manual cleanup.
+| Lab | Folder Name | Key Topics |
+|:---:|:---|:---|
+| 01 | `lab_01_time_converter` | Linear algorithms, unit conversion. |
+| 02 | `lab_02_equation_solver` | Branching logic for mathematical piecewise functions. |
+| 03 | `lab_03_series_summation` | Cyclic algorithms and series convergence analysis. |
+| 04 | `lab_04_array_random_stats` | Functions, `rand()` usage, and statistical analysis. |
+| 05 | `lab_05_search_and_sort` | Search efficiency: Linear vs. Binary search ($O(n)$ vs $O(\log n)$). |
+| 06 | `lab_06_matrix_shell_sort` | Advanced sorting (Shell's method) for 2D arrays. |
+| 07 | `lab_07_linked_list_manager` | Dynamic memory, singly linked lists, manual cleanup. |
 
 ---
 
