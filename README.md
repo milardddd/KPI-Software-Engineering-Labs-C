@@ -43,8 +43,6 @@ _Core constructs, basic math, and pointer manipulation._
 | 06 | `lab_06_matrix_shell_sort` | Advanced sorting (Shell's method) for 2D arrays. |
 | 07 | `lab_07_linked_list_manager` | Dynamic memory, singly linked lists, manual cleanup. |
 
----
-
 ## 🛠 Tech Stack & Environment
 
 - **Language:** C (Standard C11)
